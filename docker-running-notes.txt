@@ -1,0 +1,53 @@
+1) Dev Environment (DIT Env) -> deploy the developers code
+
+2) SIT Environment -> testing purpose ( testing team will use the SIT code)
+
+3) UAT Environment -> Client acceptance tesing -cilent side testing
+
+4) Pilot Environment (Pre-Prod Env) -> Test the code before production (It allows you to test and catch bugs in your code before pushing it to the production environment)
+
+5) Prod Environment -> Live Environment
+
+==========
+Docker:
+==========
+
+=> Docker is a Containerization software
+
+=> Docker is used to simplify our application deployment process.
+
+=> Docker will take care of required dependencies of our application.
+
+=> Using Docker we will run our application as a container
+
+
+=========================================
+What is Conatinerizartion?
+=========================================
+
+=> The process of packaging our application code + 
+   dependencies as single unit and executing as a container is called Containerization.
+
+=> Conatiner is an virtula machine (linux VM)
+
+========================
+What is Docker image ?
+========================
+
+=> It is an executable file (application code+dependencies+libraries) that is used to build the docker container
+
+
+==============================
+Docker Installation:
+==============================
+$ curl -fsSL https://get.docker.com -o get-docker.sh
+
+$ sh get-docker.sh or ./get-docker.sh
+
+$ docker version
+
+       (OR)
+
+$ sudo apt install docker.io -y
+
+
